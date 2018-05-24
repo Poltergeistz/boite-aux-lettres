@@ -4,9 +4,13 @@ function Courriers(adresse, courrier){
   }
   
   courrier1 = new Courriers("Chemin des développeurs", "letter");
+  console.log(courrier1);
   courrier2 = new Courriers("Route de St go", "ad");
+  console.log(courrier2);
   courrier3 = new Courriers("Chemin du Javascript", "letter and ad");
+  console.log(courrier3);
   courrier4 = new Courriers("Boulevard du code", "bill");
+  console.log(courrier4);
   
   
   function Habitation(adresse){
@@ -27,7 +31,6 @@ function Courriers(adresse, courrier){
   maison3 = new Habitation("Chemin du Javascript");
   maison4 = new Habitation("Boulevard du code");
   
-  Habitation.deposerCourrier()
   console.log(Habitation.deposerCourrier)
   
   // maison1 expect a letter.
