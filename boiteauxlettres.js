@@ -27,11 +27,13 @@ function Courriers(adresse, courrier){
       }
   }
   maison1 = new Habitation("Chemin des développeurs");
+  console.log(maison1);
   maison2 = new Habitation("Route de St go");
+  console.log(maison2);
   maison3 = new Habitation("Chemin du Javascript");
-  maison4 = new Habitation("Boulevard du code");
-  
-  console.log(Habitation.deposerCourrier)
+  console.log(maison3);
+  maison4 = new Habitation("Boulevard du code"); 
+  console.log(maison4);
   
   // maison1 expect a letter.
   // maison2 expect an ad.
